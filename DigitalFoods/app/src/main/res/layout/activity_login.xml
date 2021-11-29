@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinatorLayoutLogin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lime_light"
+        tools:context=".Login">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/loginEmail"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:hint="Email"
+            android:textColorHint="@color/black"
+            app:boxStrokeColor="@color/lime_dark"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/black"
+            app:hintTextColor="@color/lime_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:startIconDrawable="@drawable/icon_email"
+            app:startIconTint="@color/black">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/email_CadastrarUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/black">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/loginSenha"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:hint="Senha"
+            android:textColorHint="@color/black"
+            app:boxStrokeColor="@color/lime_dark"
+            app:endIconMode="password_toggle"
+            app:endIconTint="@color/black"
+            app:hintTextColor="@color/lime_dark"
+            app:layout_constraintEnd_toEndOf="@id/loginEmail"
+            app:layout_constraintStart_toStartOf="@id/loginEmail"
+            app:layout_constraintTop_toBottomOf="@id/loginEmail"
+            app:startIconDrawable="@drawable/ic_cadeado"
+            app:startIconTint="@color/black">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/senha_CadastrarUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberPassword"
+                android:textColor="@color/black" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btLogin"
+            style="@style/Button_Style"
+            android:layout_marginTop="30dp"
+            android:text="LOGIN"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/loginSenha"
+            app:layout_constraintStart_toStartOf="@id/loginSenha"
+            app:layout_constraintTop_toBottomOf="@id/loginSenha">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+
+        <View
+            android:id="@+id/linhaLogin"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="30dp"
+            android:background="@android:color/darker_gray"
+            android:padding="20dp"
+            app:layout_constraintEnd_toEndOf="@id/btLogin"
+            app:layout_constraintStart_toStartOf="@id/btLogin"
+            app:layout_constraintTop_toBottomOf="@id/btLogin" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="0dp"
+            android:background="@color/lime_light"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="OU"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@id/btLogin"
+            app:layout_constraintStart_toStartOf="@id/btLogin"
+            app:layout_constraintTop_toBottomOf="@id/btLogin">
+
+        </TextView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btLoginCadastrar"
+            style="@style/Button_Style"
+            android:layout_marginTop="200dp"
+            android:text="CADASTRAR"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/btLogin"
+            app:layout_constraintStart_toStartOf="@id/btLogin"
+            app:layout_constraintTop_toBottomOf="@id/btLogin">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
