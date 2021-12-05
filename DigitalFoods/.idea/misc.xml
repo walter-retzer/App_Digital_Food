@@ -8,10 +8,12 @@
         <entry key="..\:/Users/walte/Desktop/AndroidStudio/DigitalFoods/app/src/main/res/drawable/icon_email.xml" value="0.2703125" />
         <entry key="..\:/Users/walte/Desktop/AndroidStudio/DigitalFoods/app/src/main/res/layout/act_recycler.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/walte/Desktop/AndroidStudio/DigitalFoods/app/src/main/res/layout/activity_cadastrar_usuario.xml" value="0.264" />
+        <entry key="..\:/Users/walte/Desktop/AndroidStudio/DigitalFoods/app/src/main/res/layout/activity_detalhe_prato.xml" value="0.264" />
+        <entry key="..\:/Users/walte/Desktop/AndroidStudio/DigitalFoods/app/src/main/res/layout/activity_lista_pratos.xml" value="0.264" />
         <entry key="..\:/Users/walte/Desktop/AndroidStudio/DigitalFoods/app/src/main/res/layout/activity_lista_restaurantes.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/walte/Desktop/AndroidStudio/DigitalFoods/app/src/main/res/layout/activity_login.xml" value="0.264" />
-        <entry key="..\:/Users/walte/Desktop/AndroidStudio/DigitalFoods/app/src/main/res/layout/activity_main.xml" value="0.4" />
-        <entry key="..\:/Users/walte/Desktop/AndroidStudio/DigitalFoods/app/src/main/res/layout/activity_splash_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/walte/Desktop/AndroidStudio/DigitalFoods/app/src/main/res/layout/activity_login.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/walte/Desktop/AndroidStudio/DigitalFoods/app/src/main/res/layout/activity_main.xml" value="0.15637860082304528" />
+        <entry key="..\:/Users/walte/Desktop/AndroidStudio/DigitalFoods/app/src/main/res/layout/activity_splash_screen.xml" value="0.15833333333333333" />
         <entry key="..\:/Users/walte/Desktop/AndroidStudio/DigitalFoods/app/src/main/res/layout/fragment_a.xml" value="0.4" />
         <entry key="..\:/Users/walte/Desktop/AndroidStudio/DigitalFoods/app/src/main/res/layout/fragment_b.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/walte/Desktop/AndroidStudio/DigitalFoods/app/src/main/res/layout/fragment_c.xml" value="0.25416666666666665" />
@@ -20,6 +22,7 @@
         <entry key="..\:/Users/walte/Desktop/AndroidStudio/DigitalFoods/app/src/main/res/layout/fragment_fragment.xml" value="0.14990942028985507" />
         <entry key="..\:/Users/walte/Desktop/AndroidStudio/DigitalFoods/app/src/main/res/layout/fragment_g.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/walte/Desktop/AndroidStudio/DigitalFoods/app/src/main/res/layout/fragment_h.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/walte/Desktop/AndroidStudio/DigitalFoods/app/src/main/res/layout/pratos_recycler.xml" value="0.13333333333333333" />
       </map>
     </option>
   </component>

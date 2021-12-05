@@ -25,8 +25,8 @@ class Login : AppCompatActivity() {
 
         // Criando os elementos da Activity:
         botaoLogin = findViewById(R.id.btLogin)
-        loginEmail = findViewById(R.id.email_CadastrarUsuario)
-        loginSenha = findViewById(R.id.senha_CadastrarUsuario)
+        loginEmail = findViewById(R.id.email_LoginUsuario)
+        loginSenha = findViewById(R.id.senha_LoginUsuario)
         botaoCadastrar = findViewById(R.id.btLoginCadastrar)
 
         // Verifica se o botão "ENTRAR" foi clicado e executa a avaliação para verificar os campos preenchidos
@@ -97,11 +97,8 @@ class Login : AppCompatActivity() {
                 Handler().postDelayed({
                     // chama a Activity Pagina Inicial após 2 seg.
                     iniciaActivity()
-                }, 2000)
-
-
+                }, 1000)
             }
-
         }
 
         // Verifica se o botão "ENTRAR" foi clicado e executa a avaliação para verificar os campos preenchidos
@@ -109,10 +106,8 @@ class Login : AppCompatActivity() {
             Handler().postDelayed({
                 // chama a Activity Pagina Inicial após 2 seg.
                 iniciaActivity1()
-            }, 2000)
+            }, 1000)
         }
-
-
     }
 
     private fun iniciaActivity() {

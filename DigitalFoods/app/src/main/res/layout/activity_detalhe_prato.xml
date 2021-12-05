@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalhePrato">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lime_light"
+        android:backgroundTint="@color/lime_light"
+        tools:context=".DetalhePrato">
+
+        <ImageView
+            android:id="@+id/imagemDetalhePrato"
+            android:layout_width="wrap_content"
+            android:layout_height="225dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cervejas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/nomePrato"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:background="@color/black"
+            android:padding="10dp"
+            android:text="RESTAURANTE"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            app:layout_constraintEnd_toEndOf="@+id/imagemDetalhePrato"
+            app:layout_constraintStart_toStartOf="@+id/imagemDetalhePrato"
+            app:layout_constraintTop_toBottomOf="@+id/imagemDetalhePrato" />
+
+        <TextView
+            android:id="@+id/descriçãoPratos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:text="Descrição"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/nomePrato"
+            app:layout_constraintStart_toStartOf="@+id/nomePrato"
+            app:layout_constraintTop_toBottomOf="@+id/nomePrato" />
+
+        <TextView
+            android:id="@+id/conteudoPratos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:justificationMode="inter_word"
+            android:text="Conteúdo"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="@+id/descriçãoPratos"
+            app:layout_constraintStart_toStartOf="@+id/descriçãoPratos"
+            app:layout_constraintTop_toBottomOf="@+id/descriçãoPratos" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

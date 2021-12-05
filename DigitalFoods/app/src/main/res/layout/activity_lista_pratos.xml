@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListaPratos">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lime_light"
+        android:backgroundTint="@color/lime_light"
+        tools:context=".ListaPratos">
+
+        <ImageView
+            android:id="@+id/imagemPricipalRestaurante"
+            android:layout_width="wrap_content"
+            android:layout_height="225dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cervejas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/nomeRestaurante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:background="@color/black"
+            android:padding="10dp"
+            android:text="RESTAURANTE"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            app:layout_constraintEnd_toEndOf="@+id/imagemPricipalRestaurante"
+            app:layout_constraintStart_toStartOf="@+id/imagemPricipalRestaurante"
+            app:layout_constraintTop_toBottomOf="@+id/imagemPricipalRestaurante" />
+
+        <TextView
+            android:id="@+id/nomePratos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:padding="0dp"
+            android:text="Pratos Principais"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/nomeRestaurante"
+            app:layout_constraintStart_toStartOf="@+id/nomeRestaurante"
+            app:layout_constraintTop_toBottomOf="@+id/nomeRestaurante" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/pratos_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nomeRestaurante"
+            tools:itemCount="8"
+            tools:listitem="@layout/card_restaurante"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

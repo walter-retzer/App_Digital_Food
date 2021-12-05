@@ -35,16 +35,13 @@
             app:startIconTint="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/email_CadastrarUsuario"
+                android:id="@+id/email_LoginUsuario"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textEmailAddress"
-                android:textColor="@color/black">
-
-            </com.google.android.material.textfield.TextInputEditText>
+                android:textColor="@color/black" />
 
         </com.google.android.material.textfield.TextInputLayout>
-
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/loginSenha"
@@ -67,7 +64,7 @@
             app:startIconTint="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/senha_CadastrarUsuario"
+                android:id="@+id/senha_LoginUsuario"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="numberPassword"
@@ -84,10 +81,7 @@
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/loginSenha"
             app:layout_constraintStart_toStartOf="@id/loginSenha"
-            app:layout_constraintTop_toBottomOf="@id/loginSenha">
-
-        </androidx.appcompat.widget.AppCompatButton>
-
+            app:layout_constraintTop_toBottomOf="@id/loginSenha" />
 
         <View
             android:id="@+id/linhaLogin"
@@ -111,12 +105,11 @@
             android:gravity="center_vertical"
             android:padding="10dp"
             android:text="OU"
+            android:textColor="@android:color/darker_gray"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="@id/btLogin"
             app:layout_constraintStart_toStartOf="@id/btLogin"
-            app:layout_constraintTop_toBottomOf="@id/btLogin">
-
-        </TextView>
+            app:layout_constraintTop_toBottomOf="@id/btLogin" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btLoginCadastrar"
@@ -127,9 +120,7 @@
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@id/btLogin"
             app:layout_constraintStart_toStartOf="@id/btLogin"
-            app:layout_constraintTop_toBottomOf="@id/btLogin">
-
-        </androidx.appcompat.widget.AppCompatButton>
+            app:layout_constraintTop_toBottomOf="@id/btLogin" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

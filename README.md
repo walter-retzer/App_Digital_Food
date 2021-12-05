@@ -43,7 +43,7 @@ Aplicativo a ser usado como um menu de restaurantes a disposição do usuário.
 
 ## TELA DE HOME COM A RELAÇÃO DOS RESTAURANTES DISPONÍVEIS
 
-![Gráfico](screen/Screenshot_20211205_144035.png)
+![Gráfico](screen/Screenshot_20211205_144246.png)
 
 ![Gráfico](screen/Screenshot_20211205_144303.png)
 

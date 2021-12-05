@@ -1,16 +1,12 @@
 package com.wdretzer.digitalfoods
 
 import android.content.Intent
-import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.widget.ProgressBar
-import android.widget.TextView
-import com.google.android.material.snackbar.Snackbar
 
 private lateinit var progressSplashBar: ProgressBar
-
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -37,9 +33,5 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, Login::class.java))
             finish()
         }, maxSplashTime)
-
-
     }
-
-
 }
