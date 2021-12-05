@@ -3,7 +3,14 @@ Aplicativo a ser usado como um menu de restaurantes a disposição do usuário.
 
 ## TELA INICIAL DO APLICATIVO
 
-![Gráfico](screen/Screenshot_20211129_165433_1.jpg)
+### Tela Splash
+
+![Gráfico](screen/Screenshot_20211205_144101.png)
+
+![Gráfico](screen/Screenshot_20211205_144103.png)
+
+![Gráfico](screen/Screenshot_20211205_144104.png)
+
 
 ## TELA DE LOGIN
 
